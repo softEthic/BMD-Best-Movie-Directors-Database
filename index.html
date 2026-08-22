@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Movie Directors Database</title>
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="hero">
+        <h1>Best Movie Directors Database</h1>
+        <p>The greatest filmmakers working today.</p>
+    </section>
+
+    <input type="text" id="search" placeholder="Search directors...">
+
+    <main class="grid-container">
+        
+        <div class="director-card">
+
+            <div class="rank">#1</div>
+
+            <img src="assets/images/nolan.webp" alt="Christopher Nolan">
+            <h2>Christopher Nolan</h2>
+
+            <div class="badges">
+                <span class="badge">Sci-Fi</span>
+                <span class="badge">Thriller</span>
+                <span class="badge">Epic</span>
+            </div>
+
+            <p><strong>Born:</strong> 1970</p>
+
+            <p><strong>Country:</strong>
+                 United Kingdom
+                <img src="assets/images/ukflag.png" alt="United Kingdom Flag" class="flag">
+                </p>
+
+            <p><strong>Genres:</strong> Sci-Fi, Thriller, Drama</p>
+
+            <p>Best movies: Inception, Interstellar, The Dark Knight, Oppenheimer</p>
+
+            <div class="movie-posters">
+
+                <div class="movie">
+                <img src="assets/images/inception.webp" alt="inception">
+                <p>Inception</p>
+                </div>
+
+                <div class="movie">
+                <img src="assets/images/interstellar.webp" alt="interstellar">
+                <p>Interstellar</p>
+                </div>
+
+                <div class="movie">
+                <img src="assets/images/tdk.webp" alt="the dark knight">
+                <p>The Dark Knight</p>
+                </div>
+
+                <div class="movie">
+                <img src="assets/images/oppenheimer.jpg" alt="oppenheimer">
+                <p>Oppenheimer</p>
+            </div>
+        </div>
+
+                <h3>Box Office Statistics</h3>
+            <canvas id="nolanChart"></canvas>
+            
+               <div class="stats">
+                <img src="assets/images/oscartrophy.jpg" alt="Oscar" class="oscar-icon">
+                <p>🏆 Oscar Wins: 2</p>
+                <p>🎬 Highest Grossing Film: The Dark Knight</p>
+                <p>💰 Career Box Office: $6.7B+</p>
+            </div>
+
+        <div class="director-card">
+            <div class="rank">#2</div>
+
+            <img src="assets/images/villeneuve.jpg" alt="Denis Villeneuve">
+            <h2>Denis Villeneuve</h2>
+
+                <div class="badges">
+                <span class="badge">Sci-Fi</span>
+                <span class="badge">Drama</span>
+                <span class="badge">Visionary</span>
+            </div>
+
+            <p><strong>Born:</strong> 1967</p>
+
+            <p><strong>Country:</strong> 
+                Canada
+            <img  src="assets/images/canadaflag.png" alt="Canadian flag" class="flag">
+            </p>
+
+            <p><strong>Genres:</strong> Sci-Fi, Drama, Thriller</p>
+
+            <p>Best movies: Dune, Dune: Part Two, Blade Runner 2049, Arrival</p>
+
+           <div class="movie-posters">
+
+            <div class="movie">
+            <img src="assets/images/dune2.jpg" alt="dune 2">
+            <p> Dune: part two</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/dune.jpg" alt="dune">
+            <p> Dune</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/bladerunner2049.jpg" alt="bladerunner2049">
+            <p> Blade Runner 2049</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/arrival.jpg" alt="arrival">
+            <p> Arrival</p>
+           </div>
+        </div>
+
+         <h3>Box Office Statistics</h3>
+            <canvas id="villeneuveChart"></canvas>
+            
+               <div class="stats">
+                <img src="assets/images/oscartrophy.jpg" alt="Oscar" class="oscar-icon">
+                <p>🏆 Oscar Wins: 0</p>
+                <p>🎬 Highest Grossing Film: Dune: Part Two</p>
+                <p>💰 Career Box Office: $2.0B+</p>
+            </div>
+        <div class="director-card">
+            <div class="rank">#3</div>
+            <img src="assets/images/scorsese.webp" alt="Martin Scorsese">
+            <h2>Martin Scorsese</h2>
+
+                <div class="badges">
+                <span class="badge">Crime</span>
+                <span class="badge">Drama</span>
+                <span class="badge">Legend</span>
+            </div>
+
+            <p><strong>Born:</strong> 1942</p>
+
+            <p><strong>Country:</strong> 
+                United States
+            <img src="assets/images/usflag.webp" alt="american flag" class="flag">
+            </p>
+
+            <p><strong>Genres:</strong> Crime, Drama, Biography</p>
+
+            <p>Best movies: Killers of the Flower Moon, The Wolf of Wall Street, Goodfellas, The Irishman</p>
+
+
+           <div class="movie-posters">
+
+            <div class="movie">
+            <img src="assets/images/killersoftheflowermoon.jpg" alt="Killers of the flower moon">
+            <p> Killers of The flower moon</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/thewolfofwallstreet.jpg" alt="The Wolf of Wall Street">
+            <p> The Wolf of Wall Street</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/goodfellas.jpg" alt="Goodfellas">
+            <p> Goodfellas</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/theirishman.jpg" alt="The Irishman">
+            <p> The Irishman</p>
+           </div>
+        </div>
+
+        <h3>Box Office Statistics</h3>
+        <canvas id="scorseseChart"></canvas>
+
+
+               <div class="stats">
+                <img src="assets/images/oscartrophy.jpg" alt="Oscar" class="oscar-icon">
+                <p>🏆 Oscar Wins: 1</p>
+                <p>🎬 Highest Grossing Film: The Wolf of Wall Street</p>
+                <p>💰 Career Box Office: $406M</p>
+            </div>
+
+
+        <div class="director-card">
+            <div class="rank">#4</div>
+            <img src="assets/images/tarantino.webp" alt="Quentin Tarantino">
+            <h2>Quentin Tarantino</h2>
+
+                <div class="badges">
+                <span class="badge">Crime</span>
+                <span class="badge">Action</span>
+                <span class="badge">Cult</span>
+            </div>
+
+            <p><strong>Born:</strong> 1963</p>
+
+            <p><strong>Country:</strong>
+                 United States
+            <img src="assets/images/usflag.webp" alt="american flag" class="flag">
+                </p>
+
+            <p><strong>Genres:</strong> Crime,Action,Drama</p>
+            
+            <p>Best movies: Once Upon a Time in Hollywood, Inglorious Basterds, Pulp Fiction, Django Unchained</p>
+        
+        
+           <div class="movie-posters">
+
+            <div class="movie">
+            <img src="assets/images/onceuponatimeinhollywood.jpg" alt="Once Upon a Time In Hollywood">
+            <p> Once Upon a Time in Hollywood</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/ingloriousbasterds.webp" alt="Inglorious Basterds">
+            <p> Inglorious Basterds</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/pulpfiction.webp" alt="Pulp Fiction">
+            <p> Pulp Fiction</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/djangounchained.webp" alt="Django Unchained">
+            <p> Django Unchained</p>
+        </div>
+        </div>
+
+         <h3>Box Office Statistics</h3>
+        <canvas id="tarantinoChart"></canvas>
+
+               <div class="stats">
+                <img src="assets/images/oscartrophy.jpg" alt="Oscar" class="oscar-icon">
+                <p>🏆 Oscar Wins: 2</p>
+                <p>🎬 Highest Grossing Film: Django Unchained</p>
+                <p>💰 Career Box Office: $426M</p>
+            </div>
+
+
+        <div class="director-card">
+            <div class="rank">#5</div>
+            <img src="assets/images/pta.webp" alt="Paul Thomas Anderson">
+            <h2>Paul Thomas Anderson</h2>
+
+                <div class="badges">
+                <span class="badge">Drama</span>
+                <span class="badge">Character Study</span>
+                <span class="badge">Auteur</span>
+            </div>
+
+            <p><strong>Born:</strong> 1970</p>
+
+            <p><strong>Country:</strong>
+                 United States
+                <img src="assets/images/usflag.webp" alt="american flag" class="flag">
+                </p>
+
+            <p><strong>Genres:</strong> Drama, Comedy, Character Study</p>
+
+            <p>Best movies: There Will Be Blood, Phantom Thread, Licorice Pizza, Boogie Nights</p>
+
+
+           <div class="movie-posters">
+
+            <div class="movie">
+            <img src="assets/images/therewillbeblood.webp" alt="There Will Be Blood">
+            <p> There Will Be Blood</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/PhantomThread.webp" alt="Phantom Thread">
+            <p> Phantom Thread</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/licoricepizza.webp" alt="Licorice Pizza">
+            <p> Licorice Pizza</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/boogienights.webp" alt="Boogie Nights">
+            <p> Boogie Nights</p>
+           </div>
+        </div>
+
+        <h3>Box Office Statistics</h3>
+        <canvas id="ptaChart"></canvas>
+
+               <div class="stats">
+                <img src="assets/images/oscartrophy.jpg" alt="Oscar" class="oscar-icon">
+                <p>🏆 Oscar Wins: 0</p>
+                <p>🎬 Highest Grossing Film: There Will Be Blood</p>
+                <p>💰 Career Box Office: $76M</p>
+            </div>
+
+        <div class="director-card">
+            <div class="rank">#6</div>
+            <img src="assets/images/bongjoonho.jpg" alt="Bong Joon-ho">
+            <h2>Bong Joon-ho</h2>
+
+                <div class="badges">
+                <span class="badge">Thriller</span>
+                <span class="badge">Satire</span>
+                <span class="badge">Oscar Winner</span>
+            </div>
+
+            <p><strong>Born:</strong> 1969</p>
+
+            <p><strong>Country:</strong> 
+                South Korea
+            <img src="assets/images/southkorea.webp" alt="south korean flag" class="flag">
+            </p>
+
+            <p><strong>Genres:</strong> Thriller, Drama, Dark Comedy</p>
+
+            <p>Best movies: Parasite, Memories of Murder, Snowpiercer, The Host</p>
+        
+            
+           <div class="movie-posters">
+
+            <div class="movie">
+            <img src="assets/images/parasite.webp" alt="Parasite">
+            <p> Parasite</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/memoriesofmurder.webp" alt="Memories of Murder">
+            <p> Memories of Murder</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/snowpiercer.webp" alt="Snowpiercer">
+            <p> Snowpiercer</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/thehost.webp" alt="The Host">
+            <p> The Host</p>
+           </div>
+        </div>
+
+         <h3>Box Office Statistics</h3>
+        <canvas id="bongChart"></canvas>
+
+
+               <div class="stats">
+                <img src="assets/images/oscartrophy.jpg" alt="Oscar" class="oscar-icon">
+                <p>🏆 Oscar Wins: 4</p>
+                <p>🎬 Highest Grossing Film: Parasite</p>
+                <p>💰 Career Box Office: $263M</p>
+            </div>
+
+
+        <div class="director-card">
+            <div class="rank">#7</div>
+            <img src="assets/images/deltoro.jpg" alt="Guillermo del Toro">
+            <h2>Guillermo del Toro</h2>
+
+                <div class="badges">
+                <span class="badge">Fantasy</span>
+                <span class="badge">Horror</span>
+                <span class="badge">Oscar Winner</span>
+            </div>
+
+            <p><strong>Born:</strong> 1964</p>
+
+            <p><strong>Country:</strong> 
+                Mexico
+            <img src="assets/images/mexico.webp" alt="mexican flag" class="flag">
+            </p>
+
+            <p><strong>Genres:</strong> Fantasy, Horror, Drama</p>
+
+            <p>Best movies: The Shape of Water, Pan's Labyrinth, Hellboy II: The Golden Army, Pinocchio(2022)</p>
+
+              <div class="movie-posters">
+
+            <div class="movie">
+            <img src="assets/images/theshapeofwater.jpg" alt="The Shape Of Water">
+            <p> The Shape of Water</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/panlabyrinth.jpg" alt="Pan's Labyrinth">
+            <p> Pan's Labyrinth</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/hellboy2.jpg" alt="Hellboy 2: The Golden Army">
+            <p> Hellboy 2: The Golden Army</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/pinocchio.jpg" alt="Pinocchio">
+            <p> Pinocchio</p>
+           </div>
+        </div>
+
+
+        <h3>Box Office Statistics</h3>
+        <canvas id="delToroChart"></canvas>
+
+               <div class="stats">
+                <img src="assets/images/oscartrophy.jpg" alt="Oscar" class="oscar-icon">
+                <p>🏆 Oscar Wins: 3</p>
+                <p>🎬 Highest Grossing Film: The Shape of Water</p>
+                <p>💰 Career Box Office: $195M</p>
+            </div>
+
+        <div class="director-card">
+            <div class="rank">#8</div>
+            <img src="assets/images/jordanpeele.jpg" alt="Jordan Peele">
+            <h2>Jordan Peele</h2>
+
+                <div class="badges">
+                <span class="badge">Horror</span>
+                <span class="badge">Mystery</span>
+                <span class="badge">Oscar Winner</span>
+            </div>
+
+            <p><strong>Born:</strong> 1979</p>
+
+            <p><strong>Country:</strong>
+                 United States
+                <img src="assets/images/usflag.webp" alt="american flag" class="flag">
+                </p>
+
+            <p><strong>Genres:</strong> Horror, Thriller, Mystery</p>
+
+            <p>Best movies: Get Out, Us, Nope</p>
+
+              <div class="movie-posters">
+
+            <div class="movie">
+            <img src="assets/images/getout.jpg" alt="Get Out">
+            <p> Get Out</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/us.jpg" alt="Us">
+            <p> Us</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/nope.jpg" alt="Nope">
+            <p> Nope</p>
+           </div>
+        </div>
+
+
+         <h3>Box Office Statistics</h3>
+        <canvas id="peeleChart"></canvas>
+
+               <div class="stats">
+                <img src="assets/images/oscartrophy.jpg" alt="Oscar" class="oscar-icon">
+                <p>🏆 Oscar Wins: 1</p>
+                <p>🎬 Highest Grossing Film: Get Out</p>
+                <p>💰 Career Box Office: $256M</p>
+            </div>
+        <div class="director-card">
+            <div class="rank">#9</div>
+            <img src="assets/images/wesanderson.jpg" alt="Wes Anderson">
+            <h2>Wes Anderson</h2>
+
+                <div class="badges">
+                <span class="badge">Comedy</span>
+                <span class="badge">Symmetry</span>
+                <span class="badge">Oscar Winner</span>
+            </div>
+
+            <p><strong>Born:</strong> 1969</p>
+
+            <p><strong>Country:</strong> 
+                United States
+            <img src="assets/images/usflag.webp" alt="american flag" class="flag">
+            </p>
+
+            <p><strong>Genres:</strong> Comedy, Drama, Adventure</p>
+
+            <p>Best movies: The Grand Budapest Hotel, Moonrise Kingdom, The Royal Tenebaums, Fantastic Mr.Fox</p>
+
+              <div class="movie-posters">
+
+            <div class="movie">
+            <img src="assets/images/thegrandbudapesthotel.jpg" alt="The Grand Budapest Hotel">
+            <p> The Grand Budapest Hotel</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/moonrisekingdom.jpg" alt="Moonrise Kingdom">
+            <p> Moonrise Kingdom</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/theroyaltenebaums.jpg" alt="The Royal Tenebaums">
+            <p> The Royal Tenebaums</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/fantasticmrfox.jpg" alt="Fantastic Mr.Fox">
+            <p> Fantastic Mr.Fox</p>
+           </div>
+        </div>
+
+         <h3>Box Office Statistics</h3>
+        <canvas id="wesChart"></canvas>
+
+
+               <div class="stats">
+                <img src="assets/images/oscartrophy.jpg" alt="Oscar" class="oscar-icon">
+                <p>🏆 Oscar Wins: 1</p>
+                <p>🎬 Highest Grossing Film: The Grand Budapest Hotel</p>
+                <p>💰 Career Box Office: $174M</p>
+            </div>
+        <div class="director-card">
+            <div class="rank">#10</div>
+            <img src="assets/images/gerwig.jpg" alt="Greta Gerwig">
+            <h2>Greta Gerwig</h2>
+
+                <div class="badges">
+                <span class="badge">Drama</span>
+                <span class="badge">Comedy</span>
+                <span class="badge">Box Office Queen</span>
+            </div>
+
+            <p><strong>Born:</strong> 1983</p>
+
+            <p><strong>Country:</strong> 
+                United States
+            <img src="assets/images/usflag.webp" alt="american flag" class="flag">
+            </p>
+
+            <p><strong>Genres:</strong> Drama, Comedy</p>
+
+            <p>Best movies: Barbie, Little Women, Lady Bird</p>
+
+              <div class="movie-posters">
+
+            <div class="movie">
+            <img src="assets/images/barbie.jpg" alt="Barbie">
+            <p> Barbie</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/littlewomen.jpg" alt="Little Women">
+            <p> Little Women</p>
+            </div>
+
+            <div class="movie">
+            <img src="assets/images/ladybird.webp" alt="Lady Bird">
+            <p> Lady Bird</p>
+           </div>
+        </div>
+
+
+         <h3>Box Office Statistics</h3>
+        <canvas id="gerwigChart"></canvas>
+
+
+               <div class="stats">
+                <img src="assets/images/oscartrophy.jpg" alt="Oscar" class="oscar-icon">
+                <p>🏆 Oscar Wins: 0</p>
+                <p>🎬 Highest Grossing Film: Barbie</p>
+                <p>💰 Career Box Office: $1.446B</p>
+            </div>
+    </main>
+
+    <footer>
+        <p>Created by Youcef Abdi-LeBlanc</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
